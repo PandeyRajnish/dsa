@@ -1,6 +1,6 @@
 // WAF  that counts and  return negative numbers in an array
 
-const negativeArray = [1, 3, 5, 6, 10];
+const negativeArray = [1, 3, -5, -6, 10];
 
 function countNegative(arr) {
   let count = 0;
